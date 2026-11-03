@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 
 app = FastAPI()
 
@@ -15,8 +15,8 @@ produtos = [
 ]
 
 class Produto(BaseModel):
-    nome: str
-    preco: float
+    nome: str = Field(min_length=1)
+    preco: float = Field(gt=0)
 
 @app.get("/produtos")
 def listar_produtos():
