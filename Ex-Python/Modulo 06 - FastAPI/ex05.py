@@ -31,6 +31,7 @@ def listar_produtos():
 
 @app.post("/produtos")
 def cadastrar_produto(produto: Produto):
+    print(repr(produto.nome))
     produtos.append(
         {
             "nome": produto.nome,
