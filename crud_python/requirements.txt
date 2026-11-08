@@ -1,14 +1,18 @@
 agent-detector==2.0.0
+alembic==1.20.1
 annotated-doc==0.0.5
 annotated-types==0.8.0
 anyio==4.16.0
+argon2-cffi==25.1.0
+argon2-cffi-bindings==26.1.0
 certifi==2026.10.23
+cffi==2.1.1
 charset-normalizer==3.5.2
 click==8.5.1
 detect-installer==0.2.1
 dnspython==2.9.2
 email-validator==2.3.0
-fastapi==0.162.0
+fastapi==0.162.2
 fastapi-cli==0.0.32
 fastapi-cloud-cli==0.26.0
 fastar==0.12.0
@@ -21,6 +25,7 @@ httpx==0.28.1
 httpx2==2.16.0
 idna==3.20
 Jinja2==3.1.6
+Mako==1.4.3
 markdown-it-py==4.2.0
 MarkupSafe==3.0.4
 mdurl==0.1.2
@@ -33,6 +38,7 @@ opentelemetry-proto==1.45.2
 opentelemetry-sdk==1.45.2
 opentelemetry-semantic-conventions==0.66b2
 protobuf==7.36.2
+pycparser==3.12
 pydantic==2.14.3
 pydantic-extra-types==2.11.1
 pydantic-settings==2.16.2
